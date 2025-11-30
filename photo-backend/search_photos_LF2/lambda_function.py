@@ -166,3 +166,5 @@ def lambda_handler(event, context):
         "headers": {"Content-Type": "application/json"},
         "body": json.dumps(body),
     }
+print("Pipeline auto-trigger test")
+
